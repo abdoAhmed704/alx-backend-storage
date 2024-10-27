@@ -22,8 +22,8 @@ CREATE TABLE `metal_bands` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `metal_bands` (`band_name`, `fans`, `formed`, `id`, `origin`, `split`, `style`)
-VALUES ('Iron Maiden', '4195', '1975', '1', 'United Kingdom', NULL, 'New wave of british heavy,Heavy'),
-('Opeth', '4147', '1990', '2', 'Sweden', '1990', 'Extreme progressive,Progressive rock,Progressive'),
+VALUES                    ('Iron Maiden', '4195', '1975', '1', 'United Kingdom', NULL, 'New wave of british heavy,Heavy'),
+                          ('Opeth', '4147',        '1990', '2', 'Sweden', '1990', 'Extreme progressive,Progressive rock,Progressive'),
 ('Metallica', '3712', '1981', '3', 'USA', NULL, 'Heavy,Bay area thrash'),
 ('Megadeth', '3105', '1983', '4', 'USA', '1983', 'Thrash,Heavy,Hard rock'),
 ('Amon Amarth', '3054', '1988', '5', 'Sweden', NULL, 'Melodic death'),
