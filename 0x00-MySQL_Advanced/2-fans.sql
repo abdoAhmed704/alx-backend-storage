@@ -1,5 +1,5 @@
--- lists all bands with Glam rock
--- as their main style, ranked by their longevity
+-- script that ranks country origins of bands
+-- ordered by numbers of fans
 
 SELECT origin, SUM(fans) AS nb_fans FROM metal_bands 
 GROUP BY origin ORDER BY nb_fans DESC;
